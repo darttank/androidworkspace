@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.tianfan.moneylife"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="17" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppBaseTheme" >
+        <activity
+            android:name="com.tianfan.moneylife.MainActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity android:name="com.tianfan.moneylife.Splash" >
+             <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.tianfan.moneylife.LoginActivity"
+            android:label="@string/login_to_cloud"  >
+              
+        </activity>
+        <activity android:name="com.tianfan.moneylife.RegisterActivity" >
+        </activity>
+        <activity android:name="com.tianfan.moneylife.AddEvent" >
+        </activity>
+        <activity android:name="com.tianfan.moneylife.AddIncome" >
+        </activity>
+        <activity android:name="com.tianfan.moneylife.QueryByTodayActivity" >
+        </activity>
+        <activity android:name="com.tianfan.moneylife.QueryByMonthActivity" >
+        </activity>
+        <activity android:name="com.tianfan.moneylife.QueryByYearActivity" >
+        </activity>
+         <activity android:name="com.tianfan.moneylife.FindFragment" >
+            
+        </activity>
+        <activity android:name="com.tianfan.moneylife.Navorgit" >
+        
+          
+        </activity>
+        <activity
+            android:name="com.tianfan.moneylife.BudgetActivity"
+            android:label="@string/title_activity_budget" >
+        </activity>
+        <activity
+            android:name="com.tianfan.moneylife.AnalysisActivity"
+            android:label="@string/title_activity_analysis" >
+        </activity>
+        <activity
+            android:name="com.tianfan.moneylife.SettingActivity"
+            android:label="@string/title_activity_setting" >
+        </activity>
+        <activity
+            android:name="com.tianfan.moneylife.CheckByTimeActivity"
+            android:label="@string/title_activity_check_by_time" >
+        </activity>
+        <activity
+            android:name="com.tianfan.moneylife.QueryByDateActivity"
+            android:label="@string/title_activity_query_by_date" >
+             
+        </activity>
+    </application>
+
+</manifest>

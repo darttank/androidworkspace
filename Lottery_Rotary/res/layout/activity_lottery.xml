@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+    android:background="@drawable/lottery_bg"
+    >
+
+    <RelativeLayout
+        android:id="@+id/main_top"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/nav_bg_choujiang" >
+
+        <RelativeLayout
+            android:id="@+id/btn_bg_white"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:background="@drawable/nav_btn_bg_choujiang" >
+
+            <ImageView
+                android:id="@+id/toVote"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:contentDescription="@null"
+                android:src="@drawable/btn_toupiao_white" />
+
+            <ImageView
+                android:id="@+id/nav_btn_choujiang_red"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="63dp"
+                android:contentDescription="@null"
+                android:src="@drawable/btn_choujiang_red" />
+        </RelativeLayout>
+
+        <ImageView
+            android:id="@+id/person_center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="18dp"
+            android:contentDescription="@null"
+            android:src="@drawable/choujiang_personal_center" />
+    </RelativeLayout>
+    
+        <RelativeLayout
+        android:id="@+id/relativeLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_margin="40dp"
+        android:layout_marginBottom="50dp" >
+
+        <ImageView
+            android:id="@+id/imgnoth"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/lottery_nothing"
+            android:visibility="gone" />
+
+        <ImageView
+            android:id="@+id/imgmiddle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:background="@drawable/image_middle" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/imgmiddle"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/lottery_bottom" />
+
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/shakeback"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_alignParentRight="true"
+        android:background="@drawable/lottery_close"
+        android:paddingRight="10dp"
+        android:paddingTop="10dp" />
+
+    <ImageView
+        android:id="@+id/imgtit"
+        android:layout_width="wrap_content"
+        android:layout_height="45dp"
+        android:layout_below="@+id/main_top"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/lottery_head_1" />
+
+</RelativeLayout>

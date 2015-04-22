@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:gravity="center"
+    >
+
+    <Button
+        android:id="@+id/btn_in"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="添加支出" />
+
+    <Button
+        android:id="@+id/btn_out"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="添加收入" />
+
+    <Button
+        android:id="@+id/btn_search"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="查询" />
+    
+    
+      
+      <Button
+        android:id="@+id/btn_pre"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="预算设置" />
+      
+        <Button
+        android:id="@+id/btn_analysis"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="数据分析" />
+        
+         <Button
+             android:id="@+id/btn_setting"
+             android:layout_width="fill_parent"
+             android:layout_height="wrap_content"
+             android:text="软件设置" />
+
+</LinearLayout>

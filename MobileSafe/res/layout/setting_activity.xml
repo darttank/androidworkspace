@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+     xmlns:itheima="http://schemas.android.com/apk/res/com.itheima.mobilesafe"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+     >
+
+    <RelativeLayout
+        android:id="@+id/rl_text_setting"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="#8866ff00"
+        android:gravity="center" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="设置中心"
+            android:textSize="25sp" />
+    </RelativeLayout>
+
+    <com.itheima.mobilesafe.ui.SettingUpdataStatus
+        itheima:title="设置自动更新"
+        itheima:desc_on="软件更新已经开启"
+        itheima:desc_off="软件更新已经关闭"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" 
+        android:id="@+id/rl_setting_updata"
+        android:layout_below="@id/rl_text_setting"
+        >
+        </com.itheima.mobilesafe.ui.SettingUpdataStatus>
+
+</RelativeLayout>

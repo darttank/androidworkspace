@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<itheima:shiporder xmlns:itheima="www.itheima.com"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="www.itheima.com shiporder.xsd" orderid="asdf" >
+	<itheima:orderperson>asdf</itheima:orderperson>
+	<itheima:shipto>
+		<itheima:name>zzzz</itheima:name>
+		<itheima:address>ssss</itheima:address>
+		<itheima:city>sdfdf</itheima:city>
+		<itheima:country>sdfdf</itheima:country>
+	</itheima:shipto>
+	<itheima:item>
+		<itheima:title>sadfdsf</itheima:title>
+		<itheima:note>sdfdsfdsf</itheima:note>
+		<itheima:quantity>10</itheima:quantity>
+		<itheima:price>100.99</itheima:price>
+	</itheima:item>
+	<itheima:item>
+		<itheima:title>sadfdsf</itheima:title>
+		<itheima:note>sdfdsfdsf</itheima:note>
+		<itheima:quantity>10</itheima:quantity>
+		<itheima:price>100.99</itheima:price>
+	</itheima:item>
+</itheima:shiporder>

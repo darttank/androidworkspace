@@ -1,0 +1,23 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FF0000"
+    android:orientation="vertical">
+    
+    <TextView
+        android:id="@+id/tv2"
+        android:layout_width="fill_parent" 
+        android:layout_height="wrap_content" 
+        android:text="第二个fragment"
+        />
+    
+    
+    <com.example.jdscdemo.XListView
+        android:id="@+id/xListView2"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" 
+        android:cacheColorHint="#00000000">
+    </com.example.jdscdemo.XListView>
+    
+</LinearLayout>

@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal" >
+    
+    <!-- button1三分之一， button2三分之二
+     <Button 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="button1"
+        android:layout_weight="1"
+        />
+      <Button 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="button2"
+         android:layout_weight="2"
+        /> -->
+        
+       <!-- 
+        <Button 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="1"
+        android:layout_weight="1"
+        />
+      <Button 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="button2"
+         android:layout_weight="2000"
+        /> -->
+        
+       <!--   如果layout_width="fill_parent"，说明button1占满一行，而button2被挤压到看不见的地方去了
+       <Button 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="button1"
+        android:layout_weight="1"
+        />
+      <Button 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="button2"
+         android:layout_weight="2000"
+        /> -->
+        
+        <!-- 当 android:layout_width="fill_parent"时，button1占据三分之一 button2占据三分之二
+                                            和android:layout_width="warp_content"相反
+           
+         <Button 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="button1"
+        android:layout_weight="1"
+        />
+      <Button 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="button2"
+         android:layout_weight="2"
+        />  -->
+        
+       <!--  <Button 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="button1"
+        android:layout_weight="1"
+        />
+      <Button 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="button2"
+         android:layout_weight="2000"
+        />  -->
+        
+       
+        
+      <!-- 
+                         总结：当另一个button为
+       android:layout_width="wrap_content"时，
+                         和我们的逻辑刚好相同 即 button1 weight=1， button2 weight=2时，此时button1 就占总数的三分之一，button2就占总数的
+                         三分之二，当 button2 中的weight=2000时，button2占满，但是要留出button1包含文本的位置。
+         
+                      当  android:layout_width="fill_parent",       
+                         
+             当      android:layout_width="200dp"设置固定值的时候，android:layout_weight是不起作用的
+                        
+       
+       -->
+       
+        <!-- 
+                                    当      android:layout_width="200dp"设置固定值的时候，android:layout_weight是不起作用的
+         <Button 
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="button1"
+        android:layout_weight="1"
+        />
+      <Button 
+        android:layout_width="20dp"
+        android:layout_height="wrap_content"
+        android:text="button2"
+         android:layout_weight="2"
+        />  -->
+
+</LinearLayout>

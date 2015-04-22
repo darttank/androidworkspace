@@ -1,0 +1,40 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="55dp"
+        android:background="#8866ff00"
+        android:gravity="center"
+        android:text="功能列表"
+        android:textColor="#000000"
+        android:textSize="22sp" />
+
+    <com.itheima.mobilesafe.ui.MarqueTextview
+        android:focusableInTouchMode="true"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" 
+        android:text="快来下砸啊，下载送妹子，很多多，来就送，不送才怪啊啊啊啊啊啊啊啊啊啊啊"
+        android:ellipsize="marquee"
+        android:singleLine="true"
+        />
+
+    <!-- <GridView
+        android:id="@+id/gridview_function"
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:numColumns="3"
+         /> -->
+    
+     <GridView
+        android:id="@+id/gridview_function"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="15dip"
+        android:numColumns="3"
+        android:verticalSpacing="10dip" />
+
+</LinearLayout>

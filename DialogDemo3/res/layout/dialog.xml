@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:gravity="center_vertical|center_horizontal"
+    android:background="@drawable/dialog_bg">
+    <RelativeLayout 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="30dip"
+        android:paddingTop="5dip">
+        
+       <!--  
+        <ImageView 
+            android:id="@+id/dialog_title_image"
+            android:layout_alignParentLeft="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/dialog_title_image"/>
+         -->
+        <!-- 标题  -->
+        <TextView 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dip"
+            android:text="幸运提示"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp"/>
+         <!--       android:layout_toRightOf="@id/dialog_title_image" -->
+         <!--   android:layout_centerInParent="true" -->
+    </RelativeLayout>
+    <TextView 
+            android:layout_width="fill_parent"
+            android:layout_height="1dip"
+            android:background="@drawable/lins"
+            android:layout_marginTop="5dip"/>
+    <!--  显示内容的textview -->
+    
+    <TextView 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="员工号：123236     姓名：诸葛亮"
+        android:textColor="#FFFFFF"
+           android:textSize="16sp"
+        android:layout_marginTop="10dip"
+        android:layout_marginLeft="30dip"/>
+    <RelativeLayout 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="10dip"
+        android:gravity="bottom|center_horizontal"
+        android:paddingBottom="10dip">
+        
+         <!-- <Button 
+            android:id="@+id/dialog_button_ok"
+            android:layout_alignParentLeft="true"
+            android:layout_width="100dip"
+            android:layout_height="wrap_content"
+            android:text="确定"/> --> 
+            
+            
+        <Button 
+            android:id="@+id/dialog_button_cancle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+           android:layout_centerVertical="true"
+            android:layout_marginLeft="15dip"
+            android:text="点击继续"
+            android:textColor="#FFFFFF"
+            />
+              <!--   android:background="@drawable/dialog_btn_bg" -->
+    </RelativeLayout>
+</LinearLayout>

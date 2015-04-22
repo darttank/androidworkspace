@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/tv_updata_hint"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:paddingLeft="5dp"
+        android:text="设置是否开启更新软件"
+        android:textSize="22sp" />
+
+    <TextView
+        android:id="@+id/tv_updata_desc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_updata_hint"
+        android:layout_marginTop="5dp"
+        android:paddingLeft="5dp"
+        android:text="更新软件已经开启"
+        android:textSize="18sp" />
+
+    <CheckBox
+        android:clickable="false"
+        android:id="@+id/cb_updata_status"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true" />
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:layout_below="@id/tv_updata_desc"
+        android:layout_marginTop="10dp"
+        android:background="?android:attr/listDivider" />
+
+</RelativeLayout>

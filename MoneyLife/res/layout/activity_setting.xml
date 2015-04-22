@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:gravity="center"
+    >
+
+    <Button
+        android:id="@+id/btn_copy"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="软件备份" />
+
+    <Button
+        android:id="@+id/btn_upgrade"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="软件升级" />
+	 <Button
+	        android:id="@+id/btn_rule"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:text="软件攻略" />
+	 
+    <Button
+        android:id="@+id/btn_exit"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="退出系统" />
+    
+     
+      
+      <Button
+        android:id="@+id/btn_pre"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="预算设置" />
+      
+        <Button
+        android:id="@+id/btn_analysis"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="数据分析" />
+        
+         <Button
+             android:id="@+id/btn_setting"
+             android:layout_width="fill_parent"
+             android:layout_height="wrap_content"
+             android:text="软件设置" />
+
+</LinearLayout>

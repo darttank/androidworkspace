@@ -1,0 +1,85 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".LoginActivity" >
+
+    <TextView
+        android:id="@+id/tv_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/title_bar_bg_gray"
+        android:gravity="center"
+        android:text="@string/login_to_cloud"
+        android:textColor="@color/black"
+        android:textSize="18sp" />
+
+    <LinearLayout
+        android:id="@+id/ll_account"
+        style="@style/accountInputBorder"
+        android:layout_below="@id/tv_title"
+        android:layout_marginTop="18dp" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/tv_account"
+            android:textColor="@color/grey" />
+
+        <EditText
+            style="@style/accountEditText"
+            android:hint="@string/et_account_hint" />
+    </LinearLayout>
+    
+    <LinearLayout
+        android:id="@+id/ll_account"
+        style="@style/accountInputBorder"
+        android:layout_below="@id/tv_title"
+        android:layout_marginTop="70dp" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/tv_account"
+            android:textColor="@color/grey" />
+
+        <EditText
+            style="@style/accountEditText"
+            android:hint="@string/et_account_hint" />
+    </LinearLayout>
+    
+    <LinearLayout
+        android:id="@+id/ll_account"
+        style="@style/accountInputBorder"
+        android:layout_below="@id/tv_title"
+        android:layout_marginTop="120dp" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/tv_account"
+            android:textColor="@color/grey" />
+
+        <EditText
+            style="@style/accountEditText"
+            android:hint="@string/et_account_hint" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_title"
+        android:layout_marginLeft="18dp"
+        android:layout_marginRight="18dp"
+        android:layout_marginTop="180dp" >
+
+        <Button
+            style="@style/accountButtonStyle"
+            android:layout_marginLeft="4dp"
+            android:background="@drawable/btn_quick_register"
+            android:onClick="enter"
+            android:text="@string/btn_quick_register" />
+    </LinearLayout>
+
+</RelativeLayout>

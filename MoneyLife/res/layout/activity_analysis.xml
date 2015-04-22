@@ -1,0 +1,177 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".AnalysisActivity"
+    android:orientation="vertical"
+     >
+     <LinearLayout 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+         >
+         <TextView
+        android:id="@+id/month_income_persent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="本月收入类型和百分比" 
+        android:textSize="25sp"
+        />
+         
+           <TextView
+        android:id="@+id/month_pay_income_persent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="工资收入" 
+        android:textSize="18sp"
+        />
+         
+          <TextView
+        android:id="@+id/month_stock_income_persent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="股票收入" 
+        android:textSize="18sp"
+        />
+             
+               
+               
+        <TextView
+        android:id="@+id/month_another_income_persent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="其他收入" 
+        android:textSize="18sp"
+        />
+        
+
+         
+         
+     </LinearLayout>
+     
+     
+       <LinearLayout 
+        android:id="@+id/month_out"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+         >
+         <TextView
+        android:id="@+id/month_out_persent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="本月支出类型和百分比" 
+        android:textSize="25sp"
+        />
+         
+           <TextView
+        android:id="@+id/month_out_shopping_persent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="日常购物" 
+        android:textSize="18sp"
+        />
+         
+          <TextView
+        android:id="@+id/month_out_gift_persent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="交际送礼" 
+        android:textSize="18sp"
+        />
+             
+                         
+        <TextView
+        android:id="@+id/month_out_eatting_persent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="餐饮开销" 
+        android:textSize="18sp"
+        />
+               
+        <TextView
+        android:id="@+id/month_out_clothes_persent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="购置衣物" 
+        android:textSize="18sp"
+        />
+           
+        <TextView
+        android:id="@+id/month_out_play_persent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="娱乐开销" 
+        android:textSize="18sp"
+        />
+                  
+        <TextView
+        android:id="@+id/month_out_internet_persent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="网费话费" 
+        android:textSize="18sp"
+        />
+                  
+        <TextView
+        android:id="@+id/month_out_traffic_persent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="交通出行" 
+        android:textSize="18sp"
+        />
+                  
+        <TextView
+        android:id="@+id/month_out_daily_persent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="水电煤气" 
+        android:textSize="18sp"
+        />
+                  
+        <TextView
+        android:id="@+id/month_out_another_persent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="其他花费" 
+        android:textSize="18sp"
+        />
+        
+
+         
+         
+     </LinearLayout>
+     
+       
+      <LinearLayout 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+         >
+       
+         
+        <TextView
+        android:id="@+id/month_money_left"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="本月结余" 
+        android:textSize="25sp"
+        />
+        
+
+         
+         
+     </LinearLayout>
+     
+     
+     
+     
+
+    
+    
+
+</LinearLayout>

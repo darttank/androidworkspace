@@ -1,0 +1,149 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".BudgetActivity" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="日预算金额:" />
+
+        <EditText
+            android:id="@+id/budget_by_day"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="请输入金额" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="月预算金额:" />
+
+        <EditText
+            android:id="@+id/budget_by_month"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="请输入金额" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <TextView
+           
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="年预算金额:" />
+
+        <EditText
+            android:id="@+id/budget_by_year"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="请输入金额" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/budget_setting"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="完成" >
+        </Button>
+
+        <Button
+            android:id="@+id/budget_change"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="调整" >
+        </Button>
+    </LinearLayout>
+    
+    
+     <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/out_by_day"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="今日实际支出金额"
+            android:textSize="20sp"
+             >
+        </TextView>
+
+        <TextView
+            android:id="@+id/out_by_month"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="今月实际支出金额" 
+            android:textSize="20sp"
+            >
+        </TextView>
+        
+          <TextView
+            android:id="@+id/out_by_year"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="今年实际支出金额"
+            android:textSize="20sp"
+             >
+        </TextView>
+        
+          
+          <TextView
+            android:id="@+id/out_by_today_account"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="今日你超支了吗？"
+            android:textSize="20sp"
+             >
+        </TextView>
+        
+          <TextView
+            android:id="@+id/out_by_month_account"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="今月你超支了吗？"
+            android:textSize="20sp"
+             >
+        </TextView>
+        
+          <TextView
+            android:id="@+id/out_by_year_account"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="今年你超支了吗？"
+            android:textSize="20sp"
+             >
+        </TextView>
+    </LinearLayout>
+    
+    
+    
+
+</LinearLayout>
